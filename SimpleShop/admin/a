@@ -1,0 +1,27 @@
+<footer> <!-- START FOOTER -->
+		<div class="copyright">
+			<div class="page-container">
+				&copy;&nbsp;Copyright 2015. All Rights Reserved. Developed by Marius Oprea
+			</div>
+		</div>
+	</footer> <!-- END FOOTER -->
+	<div class="config"> <!-- START CONFIG -->
+		<div class="config-options">
+			<h2>Colors</h2>
+			<ul id="page-colors">
+				<li><a href="#" id="green-page" class="green-text">Green</a></li>
+				<li><a href="#" id="blue-page" class="blue-text">Blue</a></li>
+				<li><a href="#" id="red-page" class="red-text">Red</a></li>
+				<li><a href="#" id="orange-page" class="orange-text">Orange</a></li>
+			</ul>
+			<h2>Page structure</h2>
+			<ul>
+				<li><a href="#" class="green-text" id="page-default">Default</a></li>
+				<li><a href="#" class="green-text" id="page-without-slider">Without Slider</a></li>
+				<li><a href="#" class="green-text" id="page-top-side-bar">Top Side Bar</a></li>				
+			</ul>
+		</div>
+		<a href="#" id="config-open-btn">
+			<i class="fa fa-bars"></i>
+		</a>
+	</div--> <!-- END CONFIG -->

@@ -1,0 +1,325 @@
+@media only screen and (min-width: 580px)  {
+	header ul select {
+		width: 100px;
+		float: right;
+	}	
+
+	ul li.select {
+		width: 100px;
+		display: inline-block;
+		margin: 5px 0;
+	}
+
+	.top-list {
+		float: right;
+		height: 43px;
+		margin-bottom: 5px;
+		margin-right: 2%;
+	}
+
+	#shopping-cart {
+		margin: 0;
+		float: right;
+	}
+
+	.mobile-shopping-cart {
+		display: none;
+	}
+
+	.desktop-shopping-cart {
+		display: inline-block;
+		padding: 5px 0;
+	}
+
+	/***************************
+	 PRODUCT
+	***************************/
+	.product {
+		width: 49%;
+		float: left;
+	}
+
+	.product:nth-child(2n+1) {
+		margin-right: 2%;
+	}
+
+	/***************************
+	 COLUMNS
+	***************************/
+	.cols-4 {
+		width: 49%;
+		float: left;
+	}
+
+	.cols-4:nth-child(2n+1) {
+		margin-right: 2%;
+	}
+
+	/***************************
+	 PRODUCT PAGE
+	***************************/
+	section.product-details {
+		display: inline-block;
+	}
+
+	.image-and-gallery {
+		float: left;
+		max-width: 300px;
+		margin-right: 2%;
+	}	
+}
+
+
+@media only screen and (min-width: 768px) {
+
+	.top-header {
+		margin: 10px 0; 
+	}
+
+	.top-list {
+		margin-right: 0;
+	}
+
+	.search-container {
+		width: 100%;
+		margin: 5px 0;
+	}
+
+	#wrapper {
+		padding: 0;
+	}
+
+	.page-container {
+		width: 750px;	
+		
+	}
+
+	footer {
+		padding: 25px 0;
+	}
+
+	.copyright {
+		padding: 20px 0;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	
+	.page-container {
+		width: 970px
+	}
+
+}
+
+@media only screen and (min-width: 1200px) {
+	body {
+		font-size: 12px;
+	}
+	.page-container {
+		width: 1170px;
+	}
+
+}
+
+
+
+@media only screen and (min-width: 870px)  {
+
+	/***************************
+	 HEADER
+	***************************/
+	.top-header {
+		
+	}
+
+	.logo-contact-search {	
+		height: 50px;
+		display: block;
+	}
+
+	.logo,
+	.top-contact,
+	.search-container {
+		float: left;
+		width: 33.33%;
+		display: inline-block;
+		height: 50px;
+	}
+
+	.top-contact {
+		margin: 0; 
+		font-size: 18px;
+	}
+
+	.top-contact span {
+		font-size: 18px;
+	}
+	
+	.search-container {
+		margin: 0;
+	}
+
+	.search-container input#search,
+	.search-container button.icon {
+		height: 48px;
+	}
+
+	
+
+	/***************************
+	 COLUMNS
+	***************************/
+	.col-2 {		
+		float: left;
+	}
+
+	.left-col {
+		width: 28%;
+		margin-right: 2%;		
+	}
+
+	.right-col {
+		width: 70%;
+	}
+
+	.col-2-equal {
+		width: 49%;
+		float: left;
+	}
+
+
+
+	/***************************
+	 IMAGE SLIDER
+	***************************/
+
+	#image-slider {
+		clear: both;	
+		z-index: 10;
+		display: inline-block;
+		overflow: hidden;
+		bottom: solid 1px red;
+		width: 100%;
+
+	}
+
+	#image-slider li {		
+		list-style: none; 	
+		bottom: solid 1px blue;
+		position: relative;
+		margin: 0;
+		max-height: 400px;
+	}
+
+	#image-slider img {
+		width: 100%;
+		max-height: 400px;
+	}
+
+	#image-slider li:not(.first-slide-image) {
+		display: none;
+	}
+
+	#image-slider li div.caption {
+		position: absolute;
+		bottom: 0;
+		background: rgba(0,0,0,0.3);
+		color: #fff;
+		width: 100%;
+		font-size: 1.2rem;
+		padding: .6rem;
+	}
+
+	/***************************
+	 CATEGORY
+	***************************/
+	.select-display {
+		display: none;
+	}
+
+	.icon-display {
+		display: block;
+	}
+
+}
+
+@media only screen and (min-width: 1100px)  {
+
+	/***************************
+	 IMAGE SLIDER
+	***************************/
+	#image-slider li,
+	#image-slider img {
+		max-height: 450px;
+	}
+}
+
+@media only screen and (min-width: 1200px)  {
+
+	/***************************
+	 PRODUCT
+	***************************/
+	.product {
+		width: 32%;
+		float: left;
+	}
+
+	.product:nth-child(2n+1) {
+		margin-right: 0;
+	}
+
+	.product:nth-child(3n+1),
+	.product:nth-child(3n+2) {
+		margin-right: 2%;
+	}
+
+	/***************************
+	 COLUMNS
+	***************************/
+	.cols-4 {
+		width: 23.5%;
+		float: left;
+	}
+
+	.cols-4:nth-child(2n+1) {
+		margin-right: 0;
+	}
+
+	.cols-4:nth-child(4n+1),
+	.cols-4:nth-child(4n+2),
+	.cols-4:nth-child(4n+3) {
+		margin-right: 2%;
+	}
+}
+
+/***************************
+ PRODUCT AS LIST
+***************************/
+
+.product-as-list {
+	float: none;
+	width: 100%;
+	position: relative;
+}	
+
+.product-as-list .image {
+	float: left;
+	width: 280px;
+	margin-right: 2%;
+}	
+
+.product-as-list .action {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.float-right-slider {
+	float: right !important;
+	width: 70% !important;
+	margin-left: 0 !important;
+	max-height: 400px;
+	margin-bottom: 5px !important;
+}
+
+

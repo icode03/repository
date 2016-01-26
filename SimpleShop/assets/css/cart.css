@@ -1,0 +1,126 @@
+.responsive-cart { 
+	width: 100%; 
+	border-collapse: collapse; 
+	border: 1px solid #E1E1E1;
+}
+
+.responsive-cart img {
+	text-align: center;
+	vertical-align: middle;
+	width: 110px;
+	height: auto;
+}
+
+.responsive-cart thead {
+	font-weight: bold; 
+	color: #FFF;
+	background-color: #A8A8A8;
+}
+
+.responsive-cart td, 
+.responsive-cart th { 
+	-ms-word-break: break-all;
+    word-break: break-all;
+    word-break: break-word;
+	-webkit-hyphens: auto;
+   	-moz-hyphens: auto;
+    hyphens: auto;
+	padding: 6px; 
+	border: 1px solid #ccc; 
+	text-align: center;
+	vertical-align: middle; 
+}
+
+.responsive-cart input[type="number"] {
+	width: 70px;
+	height: 40px;	
+	border: solid 1px #E1E1E1;
+	padding: 0 10px;
+	border-radius: 3px;
+}
+
+.cart-details-actions {
+	margin-top: 10px;
+}
+.cart-details {
+	float: left;
+}
+
+.cart-actions {
+	float: right;
+}
+
+.cart-actions a {
+	display: inline-block;
+}
+
+@media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px)  { 
+
+	.responsive-cart img {
+		display: none;
+	}
+
+	.responsive-cart, 
+	.responsive-cart thead, 
+	.responsive-cart tbody, 
+	.responsive-cart th, 
+	.responsive-cart td, 
+	.responsive-cart tr { 
+		display: block; 
+	}
+
+	.responsive-cart thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	.responsive-cart tr {
+		border-bottom: 1px solid #E1E1E1;
+	}
+
+	.responsive-cart td { 
+	    text-align: left;
+	    color: #666;
+		position: relative;
+		padding: 3px;
+		padding-left: 50%; 
+		border: none;
+
+	}
+
+	.responsive-cart td:before { 
+		font-weight: bold;
+		position: absolute;
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;	
+	}
+
+	.responsive-cart td:nth-of-type(1):before { content: "Remove"; }
+	.responsive-cart td:nth-of-type(2) { display: none; }
+	.responsive-cart td:nth-of-type(3):before { content: "Product name"; }
+	.responsive-cart td:nth-of-type(4):before { content: "Quantity"; }
+	.responsive-cart td:nth-of-type(5):before { content: "Unit Price"; }
+	.responsive-cart td:nth-of-type(6):before { content: "Total"; }
+
+	.cart-details,
+	.cart-actions {
+		float: none;
+	}
+
+	.cart-details div {
+		color: #666;
+		font-weight: bold;
+	}
+
+	.cart-details span {
+		font-weight: normal;
+	}
+
+	.cart-actions a {
+		display: block;
+		margin-top: 5px;
+	}
+}

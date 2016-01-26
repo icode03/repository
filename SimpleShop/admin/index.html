@@ -1,0 +1,195 @@
+ <!doctype html>
+<!--[if lt IE 7 ]> <html class="ie ie6 ie-lt10 ie-lt9 ie-lt8 ie-lt7 no-js" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie ie7 ie-lt10 ie-lt9 ie-lt8 no-js" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie ie8 ie-lt10 ie-lt9 no-js" lang="en"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie ie9 ie-lt10 no-js" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<!-- the "no-js" class is for Modernizr. -->
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">	
+	<meta name="author" content="Marius Oprea" />
+	<meta name="keywords" content="ecommerce, webiste">
+	<meta name="description" content="Ecommerce webiste" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+	<title>Simple Shop</title>
+
+	<link rel="shortcut icon" href="../assets/img/favicon.ico" />
+
+	<link rel="stylesheet" href="../assets/css/reset.css" />
+	<link rel="stylesheet" href="../assets/css/style.css" />
+	<link rel="stylesheet" href="../assets/css/navigation.css" />
+	<link rel="stylesheet" href="../assets/css/admin.css" />
+	<link rel="stylesheet" href="../assets/css/responsive.css" />
+
+	<link rel="stylesheet" href="../assets/font-awesome-4.4.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+	<link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet' type='text/css'>
+
+	<script src="../assets/js/libs/prefixfree.min.js"></script>
+	<script src="../assets/js/libs/modernizr-2.8.3.dev.js"></script>
+
+</head>
+
+<body class="blue">
+	
+	<header> <!-- START HEADER -->		
+		<div class="page-container">
+			<ul class="admin-nav">
+				<li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+				<li><a href="#"><i class="icon fa fa-user"></i></a><span class="admin-notify-count">1</span></li>
+				<li><a href="#"><i class="fa fa-envelope"></i></a><span class="admin-notify-count">1</span></li>
+			</ul>
+		</div>
+	</header> <!-- END HEADER -->
+
+	<div id="wrapper"> <!-- START WRAPPER -->
+		<div class="grid-container">
+			<div class="head">
+				<div class="title-records">
+					<span class="title">Products</span>
+					<span class="count-records">3</span>
+				</div>
+				<div class="actions">
+					<ul>
+						<li><a href="#"><i class="fa fa-plus-square"></i></a></li>
+						<li><a href="#"><i class="fa fa-refresh"></i></a></li>
+					</ul>
+				</div>
+			</div>
+			<div style="clear:both"></div>
+			<table class="grid">
+				<thead>
+					<tr>
+				    	<th>
+				    		<div class="column-head">
+					    		ID
+					    		<span class="column-sort">
+						    		<i class="fa fa-sort-asc"></i>
+									<i class="fa fa-sort-desc"></i>
+								</span>
+							</div>
+				    	</th>
+				     	<th>
+				     		Photo
+						</th>
+				     	<th>
+				     		Name
+				     		<span class="column-sort">
+					    		<i class="fa fa-sort-asc"></i>
+								<i class="fa fa-sort-desc"></i>
+							</span>
+						</th>
+				     	<th>
+				     		Category
+				     		<span class="column-sort">
+					    		<i class="fa fa-sort-asc"></i>
+								<i class="fa fa-sort-desc"></i>
+							</span>
+						</th>
+				     	<th>
+				     		Base Price
+				     		<span class="column-sort">
+					    		<i class="fa fa-sort-asc"></i>
+								<i class="fa fa-sort-desc"></i>
+							</span>
+						</th>
+				     	<th>
+				     		Final Price
+				     		<span class="column-sort">
+					    		<i class="fa fa-sort-asc"></i>
+								<i class="fa fa-sort-desc"></i>
+							</span>
+						</th>
+				     	<th>
+				     		Quantity
+				     		<span class="column-sort">
+					    		<i class="fa fa-sort-asc"></i>
+								<i class="fa fa-sort-desc"></i>
+							</span>
+						</th>
+				     	<th>
+				     		Status
+				     		<span class="column-sort">
+					    		<i class="fa fa-sort-asc"></i>
+								<i class="fa fa-sort-desc"></i>
+							</span>
+						</th>
+				     	<th>
+				     		Actions
+						</th>
+				  	</tr>
+				</thead>
+				<tfoot>
+					<tr>
+				    	<td colspan="9">
+				    		<div class="pagination">
+								<span>Page 1 of 7</span>
+								<a href="#" title="First page"><i class="fa fa-angle-double-left"></i></a>
+								<a href="#" title="Previous page"><i class="fa fa-angle-left"></i></a>
+								<a href="#" class="active">1</a>
+								<a href="#">2</a>
+								<a href="#">3</a>
+								<a href="#">4</a>
+								<a href="#" title="Next page"><i class="fa fa-angle-right"></i></a>
+								<a href="#" title="Last page"><i class="fa fa-angle-double-right"></i></a>
+							</div>
+				    	</td>
+				  	</tr>
+				</tfoot>
+				<tbody>
+					<tr>
+				    	<td>1</td>
+				    	<td><img src="#" title="Product Image" alt="Product Image"></td>
+				    	<td>Iphone 6 S</td>
+				    	<td>Smartphone</td>
+				    	<td>$100</td>
+				    	<td>$100</td>
+				    	<td>2</td>
+				    	<td>
+				    		<span class="enabled"><a href="#" title="Enabled"><i class="fa fa-check"></i></a></span>
+				    	</td>
+				    	<td>
+				    		<span class="edit"><a href="#" title="Edit"><i class="fa fa-pencil"></i></a></span>
+				    		<span class="delete"><a href="#" title="Delete"><i class="fa fa-times"></i></a></span>
+				    	</td>
+				  	</tr>
+				  	<tr>
+				    	<td>2</td>
+				    	<td><img src="#" title="Product Image" alt="Product Image"></td>
+				    	<td>Iphone 6 S</td>
+				    	<td>Smartphone</td>
+				    	<td>$100</td>
+				    	<td>$100</td>
+				    	<td>2</td>
+				    	<td>
+				    		<span class="disabled"><a href="#" title="Disabled"><i class="fa fa-check"></i></a></span>
+				    	</td>
+				    	<td>
+				    		<span class="edit"><a href="#" title="Edit"><i class="fa fa-pencil"></i></a></span>
+				    		<span class="delete"><a href="#" title="Delete"><i class="fa fa-times"></i></a></span>
+				    	</td>
+				  	</tr>
+				</tbody>
+			</table> 
+		</div>
+	</div> <!-- END WRAPPER -->
+	
+
+	<a href="#0" class="back-top"></a> <!-- BACK TO TOP -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>window.jQuery || document.write("<script src='../assets/js/libs/jquery-1.11.3.min.js'>\x3C/script>")</script>
+
+<script src="../assets/js/functions.js"></script>
+
+</body>
+</html>

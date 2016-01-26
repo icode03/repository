@@ -1,0 +1,103 @@
+/***************************
+ NAVIGATION
+***************************/
+
+header nav {
+	position: relative;
+	z-index: 1000;
+	background-color: #333; /*667172;*/
+    border-bottom: 0;
+    width: 100%;
+}
+
+header nav a {
+	display: block;
+	text-decoration: none;
+	color: #FFF;
+	padding: 13px 0;
+}
+
+header nav ul#navigation li a i {
+	color: #FFF;
+
+}
+
+header nav ul#navigation li {
+	padding-left: 2%;
+}
+
+header nav ul#navigation li:hover {
+	background-color: #FFF;
+	padding-left: 4%;
+}
+
+header nav ul#navigation li:hover a, 
+header nav ul#navigation li:hover i {
+	color: #283744;
+}
+
+header nav ul#navigation {
+    display: none;
+    height: auto;
+}
+
+header nav a#pull {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 18px; 
+    background-color: #202020;
+    width: 100%;
+    position: relative;
+   	padding-left: 2%;
+}
+
+header nav a#pull:after {
+    content:"";
+    background: url('../img/nav-icon.png') no-repeat;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+    right: 2%;
+    top: 13px;
+}
+
+@media only screen and (min-width: 768px) { 
+
+	header nav a#pull {
+		display: none;
+	}
+
+	header nav {
+		background-color: #202020;
+
+	}
+
+	header nav ul#navigation {
+		display: block;
+	}
+
+	header nav ul#navigation li {
+		display: table-cell;
+		border-collapse: collapse;
+		padding: 0;
+	}
+
+	header nav ul#navigation li:hover {
+		padding: 0;
+	}
+
+	header nav ul#navigation li a {
+		text-decoration: none;
+		border-right: solid 1px #333;
+		color: #fff;
+		padding: 17px 15px;
+	}
+
+	header nav ul#navigation li:first-child a {
+		border-left: solid 1px #333;
+	}
+
+	header nav ul#navigation li a:hover {
+		text-decoration: none;
+	}	
+}

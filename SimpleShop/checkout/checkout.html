@@ -1,0 +1,268 @@
+<!doctype html>
+<!--[if lt IE 7 ]> <html class="ie ie6 ie-lt10 ie-lt9 ie-lt8 ie-lt7 no-js" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie ie7 ie-lt10 ie-lt9 ie-lt8 no-js" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie ie8 ie-lt10 ie-lt9 no-js" lang="en"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie ie9 ie-lt10 no-js" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<!-- the "no-js" class is for Modernizr. -->
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">	
+	<meta name="author" content="Marius Oprea" />
+	<meta name="keywords" content="ecommerce, webiste">
+	<meta name="description" content="Ecommerce webiste" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+	<title>Simple Shop</title>
+	
+	<link rel="shortcut icon" href="../assets/img/favicon.ico" />
+
+	<link rel="stylesheet" href="../assets/css/reset.css" />
+	<link rel="stylesheet" href="../assets/css/style.css" />
+	<link rel="stylesheet" href="../assets/css/navigation.css" />
+	<link rel="stylesheet" href="../assets/css/responsive.css" />
+
+	<link rel="stylesheet" href="../assets/font-awesome-4.4.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+	<link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet' type='text/css'>
+
+	<script src="../assets/js/libs/prefixfree.min.js"></script>
+	<script src="../assets/js/libs/modernizr-2.8.3.dev.js"></script>
+
+</head>
+
+<body>
+	
+	<header> <!-- START HEADER -->
+		<nav> <!-- START NAVIGATION -->
+			<div class="page-container">
+				<ul id="navigation">
+					<li><a href="../index.html"><i class="icon fa fa-home"></i>&nbsp;Home</a></li>
+					<li><a href="../user/account.html"><i class="icon fa fa-user"></i>&nbsp;My Account</a></li>
+					<li><a href="../cart.html"><i class="icon fa fa-shopping-cart"></i>&nbsp;Shopping cart</a></li>
+					<li><a href="checkout.html"><i class="icon fa fa-key"></i>&nbsp;Checkout</a></li>
+					<li><a href="../login.html"><i class="icon fa fa-sign-in"></i>&nbsp;Login</a></li>
+					<li><a href="../contact.html"><i class="fa fa-question"></i>&nbsp;Contact</a></li>
+				</ul>
+				<a href="#" id="pull">Menu</a>
+			</div>
+		</nav> <!-- END NAVIGATION -->
+		<div class="page-container">
+			<div class="top-header">
+				<ul class="top-list">
+					<li class="desktop-shopping-cart">
+						<div id="shopping-cart">
+							<i class="fa fa-shopping-cart"></i>
+							Shopping cart
+							<span id="items">0 item(s)</span>
+							<span id="price"> - 0 Lei</span>
+						</div>
+					</li>
+					<li class="select">
+						<select id="currency" class="resizeselect">
+							<option value="lei">Lei</option>
+							<option value="euro">Euro</option>
+							<option value="usd">USD</option>
+						</select>
+					</li>
+					<li class="select">
+						<select id="language" class="resizeselect">
+							<option value="romanian">Romana</option>
+							<option value="english">English</option>
+						</select>
+					</li>
+					<li class="mobile-shopping-cart">
+						<div id="shopping-cart">
+							<i class="fa fa-shopping-cart"></i>
+							Shopping cart
+							<span id="items">0 item(s)</span>
+							<span id="price"> - 0 Lei</span>
+						</div>
+					</li>
+				</ul>	
+
+				<div style="clear:both"></div>
+
+				<div class="logo-contact-search">
+					<div class="logo">
+						<img src="../assets/img/logo.png" alt="Logo" title="Logo">
+					</div> 
+
+					<div class="top-contact"> 
+						<div><i class="fa fa-phone"></i>&nbsp;<span>+22 222 22222</span></div>
+						<div><i class="fa fa-envelope"></i>&nbsp;<span>contact@simpleshop.com</span></div>
+					</div>
+
+					<div class="search-container">
+						<input type="search" id="search" placeholder="Search...">
+					    <button class="icon"><i class="fa fa-search"></i></button>
+					</div>
+				</div>	
+			</div>
+		</div>
+		
+	</header> <!-- END HEADER -->
+
+
+	<div id="wrapper"> <!-- START WRAPPER -->
+		<div class="page-container">
+			<div class="col-2 left-col"> <!-- START LEFT COLUMN -->
+				<aside class="side-menu">
+					<div class="side-menu-header">
+						<i class="icon fa fa-key"></i>&nbsp;Checkout
+					</div>
+					<div class="side-menu-content">
+						<ul>
+							<li>
+								<a href="#">
+									<span class="checkout-step active-step">1</span>
+									Checkout Method
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span class="checkout-step">2</span>
+									Billing Address
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span class="checkout-step">3</span>
+									Shipping Address
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span class="checkout-step">4</span>
+									Payment Method
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span class="checkout-step">5</span>
+									Confirmation
+								</a>
+							</li>
+						</ul>
+					</div>
+				</aside>
+			</div> <!-- END LEFT COLUMN -->
+			
+			<div class="col-2 right-col"> <!-- START RIGHT COLUMN -->
+			<div class="page-header">Checkout Method</div>		
+				<section>
+					<div class="full-border-container">
+						<div class="container">
+							<h4>Register and Checkout</h4>						
+							<div class="separator"></div>
+							<div class="form">
+								<div class="field">
+									<span class="title">Email address:</span>
+									<input type="email" name="register-email" placeholder="Enter email address" required class="simpleInput">
+								</div>
+								<button class="light-grey-btn"><i class="icon fa fa-user"></i>&nbsp;Create an account</button>
+							</div>
+						</div>
+					</div>
+					<div class="full-border-container">
+						<div class="container">
+							<h4>Already registered?</h4>
+							<div class="separator"></div>
+							<div class="form">
+								<div class="field">
+									<span class="title">Email address:</span>
+									<input type="email" name="login-email" placeholder="Enter email address" required class="simpleInput">
+								</div>
+								<div class="field">
+									<span class="title">Password:</span>
+									<input type="password" name="login-password" placeholder="Enter password" required class="simpleInput">
+								</div>
+									<button class="light-grey-btn"><i class="icon fa fa-sign-in"></i>&nbsp;Login</button>
+									<a href="../forgot-password.html" title="Forgot password">Forgot password?</a>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div> <!-- END RIGHT COLUMN -->
+
+			<div style="clear:both"></div>
+		</div>
+	</div> <!-- END WRAPPER -->
+	<footer> <!-- START FOOTER -->
+		<div class="page-container">
+			<div class="cols-4">
+				<h2>Information</h2>
+				<ul>
+					<li><a href="#">Customer Service</a></li>
+					<li><a href="#">Orders and Returns</a></li>
+					<li><a href="#">Terms of Use</a></li>
+					<li><a href="#">Contact Support</a></li>
+					<li><a href="#">About SimpleShop</a></li>
+				</ul>
+			</div>
+			<div class="cols-4">
+				<h2>My Account</h2>
+				<ul>
+					<li><a href="#">Sign In</a></li>
+					<li><a href="#">View Cart</a></li>
+					<li><a href="#">My Wishlist</a></li>
+					<li><a href="#">My Orders</a></li>
+				</ul>
+			</div>
+			<div class="cols-4">
+				<h2>Information</h2>
+				<ul>
+					<li><a href="#">Customer Service</a></li>
+					<li><a href="#">Orders and Returns</a></li>
+					<li><a href="#">Terms of Use</a></li>
+					<li><a href="#">Contact Support</a></li>
+					<li><a href="#">About SimpleShop</a></li>
+				</ul>
+			</div>
+			<div class="cols-4">
+				<h2>Information</h2>
+				<ul>
+					<li><a href="#">Customer Service</a></li>
+					<li><a href="#">Orders and Returns</a></li>
+					<li><a href="#">Terms of Use</a></li>
+					<li><a href="#">Contact Support</a></li>
+					<li><a href="#">About SimpleShop</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="copyright">
+			<div class="page-container">
+				&copy;&nbsp;Copyright 2015. All Rights Reserved. Developed by Marius Oprea
+			</div>
+		</div>
+	</footer> <!-- END FOOTER -->
+	<div class="config"> <!-- START CONFIG -->
+		<div class="config-options">
+			<h2>Colors</h2>
+			<ul id="page-colors">
+				<li><a href="#" id="green-page" class="green-text">Green</a></li>
+				<li><a href="#" id="blue-page" class="blue-text">Blue</a></li>
+				<li><a href="#" id="red-page" class="red-text">Red</a></li>
+				<li><a href="#" id="orange-page" class="orange-text">Orange</a></li>
+			</ul>
+		</div>
+		<a href="#" id="config-open-btn">
+			<i class="fa fa-wrench"></i>
+		</a>
+	</div> <!-- END CONFIG -->
+	<a href="#0" class="back-top"></a> <!-- BACK TO TOP -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>window.jQuery || document.write("<script src='../assets/js/libs/jquery-1.11.3.min.js'>\x3C/script>")</script>
+
+<script src="../assets/js/functions.js"></script>
+
+</body>
+</html>

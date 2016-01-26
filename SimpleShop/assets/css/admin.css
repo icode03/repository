@@ -1,0 +1,148 @@
+header .admin-nav {
+	border: solid 1px red;
+	position: relative;
+	z-index: 1000;
+	background-color: #333; /*667172;*/
+    border-bottom: 0;
+    width: 100%;
+    line-height: 48px;
+}
+
+header .admin-nav li {
+	position: relative;
+	display: inline-block;
+}
+
+header ul.admin-nav li a {
+	text-decoration: none;
+	color: #FFF;
+	padding: 12px 18px;
+
+}
+
+header .admin-nav li i {
+	font-size: 18px;
+}
+
+
+.admin-notify-count {
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	width: 18px;
+	height: 18px;
+	line-height: 18px;
+	border-radius: 50%;	
+	position: absolute;
+	top: 3px;
+	right: 3px;
+	background-color: red;
+}
+
+
+/***************************
+ ADMIN GRID
+***************************/
+.grid-container {
+	border: solid 1px #E1E1E1;
+}
+
+.grid-container .head {
+	padding: 5px;
+	border-bottom: solid 1px #E1E1E1;
+	border: solid 1px red;
+	height: 32px;
+}
+
+.grid-container .title-records {
+	border: solid 1px red;
+	float: left;
+}
+
+.grid-container .actions {
+	float: right;
+}
+
+.grid-container .actions ul li {
+	display: inline-block;
+}
+
+.grid-container .actions ul li a {
+	text-decoration: none;
+	font-size: 16px;
+	color: #666;
+}
+
+
+
+.grid-container .title {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.grid-container .count-records {
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	color: #666;
+	display: inline-block;
+	width: 25px;
+	height: 18px;
+	line-height: 18px;
+	border-radius: 35%;	
+	border: solid 1px #666;	
+}
+
+table.grid {
+
+}
+
+table.grid td,
+table.grid th {
+	font-size: 14px;
+	text-align: center;
+	vertical-align: middle;
+	border: solid 1px #CCC;	
+	padding: 7px;
+}
+
+table.grid span.enabled a,
+table.grid span.disabled a,
+table.grid span.edit a,
+table.grid span.delete a {
+	color: #FFF;
+	border-radius: 3%;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	display: inline-block;
+}
+
+table.grid span.enabled a {
+	background-color: #ABD07E;
+}
+
+table.grid span.disabled a {
+	background-color: #A8A8A8;
+}
+
+table.grid span.edit a {
+	background-color: #3498DB;
+}
+
+table.grid span.delete a {
+	background-color: #FF6C6C;
+}
+
+.column-sort {
+	position: relative;
+	display: inline-block;
+	width: 5px;
+	height: 12px;
+}
+
+.column-sort i {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
