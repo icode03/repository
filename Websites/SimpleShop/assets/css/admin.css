@@ -1,0 +1,236 @@
+#admin-wrapper {
+  background: #485563;
+  background: -webkit-linear-gradient(to left, #485563 , #29323c); 
+  background: linear-gradient(to left, #485563 , #29323c); 
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;       
+}
+
+.admin .login-form {
+  background-color: #FFF; 
+  border: solid 5px #2b333b;
+  max-width: 350px;
+  margin: 50px auto;
+  margin-bottom: 10px;
+}
+
+.admin .login-form h2 {
+  font-size: 15px;
+  color: #555;
+  text-align: center;
+  text-shadow: 0 1px white;
+  background: #f3f3f3;
+  border-bottom: 1px solid #cfcfcf;
+  border-radius: 3px 3px 0 0;
+  line-height: 40px; 
+}
+
+.admin .login-form .form { 
+  position: relative;
+  padding: 20px;
+  height: 205px;
+}
+
+.admin .help {
+  text-align: center;
+  color: #FFF;
+  max-width: 350px;
+  margin: 0 auto;  
+}
+
+.admin .help,
+.admin .help a {
+  color: #e6e6e6;
+}
+
+.admin-login-btn {
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  color: #FFF;
+  background-color: #485563;
+  border: solid 1px #485563;
+  border-radius: 3px;
+  float: right;  
+  padding: 3px 5px;  
+}
+
+.admin-login-btn:hover {
+  background-color: #FFF;  
+  color: #485563;;
+}
+
+
+
+
+
+
+
+
+/*
+
+.admin .logo {
+	border: solid 1px red;
+	width: 178px;
+	height: 49px;
+	margin: 0 auto;
+
+}
+.admin .login-form {
+	border: solid 1px blue;
+	width: 400px;
+	height: 200px;
+	margin: auto;
+}
+
+header .admin-nav {
+	border: solid 1px red;
+	position: relative;
+	z-index: 1000;
+	background-color: #333; 
+    border-bottom: 0;
+    width: 100%;
+    line-height: 48px;
+}
+
+header .admin-nav li {
+	position: relative;
+	display: inline-block;
+}
+
+header ul.admin-nav li a {
+	text-decoration: none;
+	color: #FFF;
+	padding: 12px 18px;
+
+}
+
+header .admin-nav li i {
+	font-size: 18px;
+}
+
+
+.admin-notify-count {
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	width: 18px;
+	height: 18px;
+	line-height: 18px;
+	border-radius: 50%;	
+	position: absolute;
+	top: 3px;
+	right: 3px;
+	background-color: red;
+}*//*
+
+
+/***************************
+ ADMIN GRID
+***************************
+.grid-container {
+	border: solid 1px #E1E1E1;
+}
+
+.grid-container .head {
+	padding: 5px;
+	border-bottom: solid 1px #E1E1E1;
+	border: solid 1px red;
+	height: 32px;
+}
+
+.grid-container .title-records {
+	border: solid 1px red;
+	float: left;
+}
+
+.grid-container .actions {
+	float: right;
+}
+
+.grid-container .actions ul li {
+	display: inline-block;
+}
+
+.grid-container .actions ul li a {
+	text-decoration: none;
+	font-size: 16px;
+	color: #666;
+}
+
+
+
+.grid-container .title {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.grid-container .count-records {
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	color: #666;
+	display: inline-block;
+	width: 25px;
+	height: 18px;
+	line-height: 18px;
+	border-radius: 35%;	
+	border: solid 1px #666;	
+}
+
+table.grid {
+
+}
+
+table.grid td,
+table.grid th {
+	font-size: 14px;
+	text-align: center;
+	vertical-align: middle;
+	border: solid 1px #CCC;	
+	padding: 7px;
+}
+
+table.grid span.enabled a,
+table.grid span.disabled a,
+table.grid span.edit a,
+table.grid span.delete a {
+	color: #FFF;
+	border-radius: 3%;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	display: inline-block;
+}
+
+table.grid span.enabled a {
+	background-color: #ABD07E;
+}
+
+table.grid span.disabled a {
+	background-color: #A8A8A8;
+}
+
+table.grid span.edit a {
+	background-color: #3498DB;
+}
+
+table.grid span.delete a {
+	background-color: #FF6C6C;
+}
+
+.column-sort {
+	position: relative;
+	display: inline-block;
+	width: 5px;
+	height: 12px;
+}
+
+.column-sort i {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+*/

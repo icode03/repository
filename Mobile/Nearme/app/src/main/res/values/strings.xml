@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Near me</string>
+    <string name="get_started_btn">Get Started</string>
+    <string name="category_title">Categories</string>
+    <string name="places_title">Places</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="category_type">
+        <item>airport</item>
+        <item>atm</item>
+        <item>bank</item>
+        <item>bus_station</item>
+        <item>hospital</item>
+        <item>movie_theater</item>
+        <item>restaurant</item>
+    </string-array>
+
+    <string-array name="category_name">
+        <item>Airport</item>
+        <item>ATM</item>
+        <item>Bank</item>
+        <item>Bus Station</item>
+        <item>Hospital</item>
+        <item>Movie Theater</item>
+        <item>Restaurant</item>
+    </string-array>
+</resources>

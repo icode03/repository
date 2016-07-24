@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+	<head>
+
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">	
+		<meta name="author" content="Marius Oprea" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<title>Whiteboard</title>
+
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	</head>
+
+	<body>
+		
+		<div id="wrapper">
+			<div class="row">
+				<div class="col-1">
+					<div id="top-panel">
+						<div class="items">													
+							<a href="#" class="item" title="Current Background Color" id="background-color-picker-button">			
+								<input type="color" class="picker" id="background-color-picker">
+							</a>
+							<a href="#" class="item" title="Current Text Color" id="text-color-picker-button">	
+								<input type="color" class="picker" id="text-color-picker">
+							</a>
+							<a href="#" class="item" title="Font Size"  id="size-picker">								
+								<input type="number" name="size" value="1" min="1" max="10" class="size-picker"> 
+							</a>
+							<a href="#" class="item guideline" title="Guidelines" id="guideline">
+								<i class="fa fa-circle"></i>
+							</a>	
+							<a href="#" class="item guideline" title="Book Guidelines" id="book-guideline">
+								<i class="fa fa-circle"></i>
+							</a>	
+							<a href="#" class="item guideline" title="Math Guidelines" id="math-guideline">
+								<i class="fa fa-circle"></i>
+							</a>	
+							<a href="#" class="item" title="Add Text" id="add-text">
+								<i class="fa fa-plus"></i>
+							</a>
+							<a href="#" class="item" title="Text Menu" id="text-menu">
+								<i class="fa fa-bars"></i>
+							</a>
+							<a href="#" class="item" title="Trash" id="trash">
+								<i class="fa fa-trash"></i>
+							</a>
+							<a href="#" class="item" title="Download as JPG" id="download">
+								<i class="fa fa-download"></i>
+							</a>	
+							<a href="#" class="item" title="Undo" id="undo">
+								<i class="fa fa-undo"></i>
+							</a>
+							<a href="#" class="item" title="Rendo" id="rendo">
+								<i class="fa fa-repeat"></i>
+							</a>
+							<a href="#" class="item" title="Full Screen" id="full-screen">
+								<i class="fa fa-expand"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-2">
+					<div id="left-panel">
+						<div class="items">		
+							<a href="#" class="item" title="Background" id="background" onclick="clickOnLeftPanel(this)">
+								<i class="fa fa-adjust"></i>
+							</a>			
+							<a href="#" class="item" title="Pencil" id="pencil" onclick="clickOnLeftPanel(this)">
+								<i class="fa fa-pencil"></i>
+							</a>
+							<a href="#" class="item" title="Eraser" id="eraser" onclick="clickOnLeftPanel(this)">
+								<i class="fa fa-eraser"></i>
+							</a>
+							<a href="#" class="item" title="Shapes" id="shape" onclick="clickOnLeftPanel(this)">
+								<i class="fa fa-square-o"></i>
+							</a>
+							<a href="#" class="item" title="Text" id="text" onclick="clickOnLeftPanel(this)">
+								<i class="fa fa-text-height"></i>
+							</a>
+							<a href="#" class="item" title="Image" id="image" onclick="clickOnLeftPanel(this)">
+								<i class="fa fa-image"></i>
+							</a>
+							<a href="#" class="item" title="Save" id="save" onclick="clickOnLeftPanel(this)">
+								<i class="fa fa-save"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-2">
+					<div id="whiteboard">
+						
+					</div>
+				</div>
+			</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="assets/js/functions.js"></script>
+
+	</body>
+</html>

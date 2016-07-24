@@ -1,0 +1,3 @@
+http://wesbos.com/html5-canvas-websockets-nodejs/
+
+https://github.com/wesbos/websocket-canvas-draw
