@@ -21,13 +21,606 @@
       <![endif]-->
     </head>
     <body>
-      <div class="wrapper">
-        
-      </div>
-      <a href="#0" class="cd-top">a</a>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-      <script src="assets/js/jquery.js"></script>
-      <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/script.js"></script>
+		<div class="wrapper">
+			<header>
+				<nav class="navbar navbar-default">
+				  <div class="container">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+					  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					  </button>
+					  <a class="navbar-brand" href="#">
+						<div class="logo">
+							<span class="logo-green">Teams</span>
+							<span class="logo-green">lancer</span>
+						</div>
+					  </a>
+					</div>
+
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					  <ul class="nav navbar-nav">
+						<li><a href="#">Find Team</a></li>
+						<li><a href="#">Find Jobs</a></li>						
+					  </ul>
+					  
+					  <ul class="nav navbar-nav navbar-right">						
+						<li class="dropdown">
+						  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+							<i class="fa fa-envelope-o" aria-hidden="true"></i>
+							<span class="label label-danger label-notify">3</span>&nbsp; Messages
+						  </a>
+						  <ul class="dropdown-menu notifications">
+							<li class="notification-unread">
+								<a href="#">
+									<div class="notification">
+										<div class="notification-title">
+											Marius Oprea (3) 
+										</div>
+										<div class="notification-content">
+											bla bla bla bla bla blabla bla blabla bla blabla bla bla
+										</div>
+										<div class="notification-date">
+											Just now
+										</div>
+									</div>
+								</a>
+							</li>			
+							<li>
+								<a href="#">
+									<div class="notification">
+										<div class="notification-title">
+											John Smith
+										</div>
+										<div class="notification-content">
+											bla bla bla bla bla blabla bla blabla bla blabla bla bla
+										</div>
+										<div class="notification-date">
+											Today, 14:00
+										</div>
+									</div>
+								</a>
+							</li>
+							<div class="notifications-footer">
+								<a href="#"> View more messages </a>
+							</div>							
+						  </ul>
+						</li>
+						<li class="dropdown">
+						  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+							<i class="fa fa-bell-o" aria-hidden="true"></i>
+							<span class="label label-danger label-notify">1</span>&nbsp; Notifications
+						  </a>
+						  <ul class="dropdown-menu notifications">
+							<li>
+								<a href="#">
+									<div class="notification">
+										<div class="notification-title">
+											bla bla bla bla 
+										</div>
+										<div class="notification-content">
+											bla bla bla bla bla blabla bla blabla bla blabla bla bla
+										</div>
+										<div class="notification-date">
+											Just now
+										</div>
+									</div>
+								</a>
+							</li>			
+							<li class="notification-unread">
+								<a href="#">
+									<div class="notification">
+										<div class="notification-title">
+											bla bla bla bla 
+										</div>
+										<div class="notification-content">
+											bla bla bla bla bla blabla bla blabla bla blabla bla bla
+										</div>
+										<div class="notification-date">
+											Today, 14:00
+										</div>
+									</div>
+								</a>
+							</li>	
+							<div class="notifications-footer">
+								<a href="#"> View more notifications </a>
+							</div>
+						  </ul>						  
+						</li>						
+						<li class="dropdown">
+						  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+							<i class="fa fa-user" aria-hidden="true"></i>
+							Marius Oprea
+						  </a>
+						  <ul class="dropdown-menu">
+							<li>
+								<a href="#">
+									<i class="fa fa-user" aria-hidden="true"></i>
+									My Profile
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fa fa-cog" aria-hidden="true"></i>
+									Settings
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fa fa-question" aria-hidden="true"></i>
+									Help
+								</a>
+							</li>
+							<li role="separator" class="divider"></li>
+							<li>
+								<a href="#">
+									<i class="fa fa-sign-out" aria-hidden="true"></i>
+									Log Out
+								</a>
+							</li>
+						  </ul>
+						</li>
+					  </ul>
+					</div><!-- /.navbar-collapse -->
+				  </div><!-- /.container-fluid -->
+				</nav>
+			</header>
+			<section>
+				<div class="container">	
+					<div class="user-details-container">
+						<div class="container">
+							<div class="row">
+								<div class="user-image-container">
+									<div class="user-image">
+										<img src="assets/img/members/1.jpg" title="Marius Oprea">
+										<div class="edit-image" data-toggle="modal" data-target="#editProfileImage">
+											<div class="centered-container">
+												<i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+												Edit
+											</div>
+										</div>	
+									</div>									
+									<div class="info-field">
+										<span class="top" title="The profile is 100% completed" data-original-title="The profile is 100% completed">
+											<i class="fa fa-user small-icon green-icon" aria-hidden="true"></i>
+										</span>	
+										<span class="top" title="The email is verified" data-original-title="The email is verified">
+											<i class="fa fa-envelope small-icon green-icon" aria-hidden="true"></i>
+										</span>	
+										<span class="top" title="The phone is not verified" data-original-title="The phone is not verified">
+											<i class="fa small-icon fa-phone" aria-hidden="true"></i>
+										</span>	
+										<span class="top" title="Payment method is not verified" data-original-title="Payment method is not verified">
+											<i class="fa small-icon fa-credit-card-alt" aria-hidden="true"></i>
+										</span>										
+									</div>	
+								</div>								
+								<div class="user-info">
+									<div class="info-field">
+										<h4>Marius Oprea</h4>
+									</div>
+									<div class="info-field">
+										Web Developer
+									</div>
+									<div class="info-field">
+										Team Name
+									</div>		
+									<div class="info-field">
+										<i class="fa fa-map-marker" aria-hidden="true"></i>
+										Pitesti, Romania - 4:09pm local time
+									</div>
+									<div class="info-field">
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star-half-o" aria-hidden="true"></i>
+										<span class="label label-default" title="4.5">4.5</span>
+									</div>									
+									<div class="info-field skills collapse-group">
+										<span class="label label-default" title="Java">Java</span>
+										<span class="label label-default" title="Hibernate">Hibernate</span>
+										<span class="label label-default" title="HTML5">HTML5</span>										
+										<div id="collapse-container" class="info-field collapse"> 
+											<span class="label label-default" title="CSS3">CSS3</span>
+											<span class="label label-default" title="CSS3">MySQL</span>
+											<span class="label label-default" title="CSS3">PHP</span>
+										</div>
+										<a href="#" id="show-more">Show more</a>
+									</div>									
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="user-details-container">
+						<div class="profile-section">
+							<div class="title-border">
+								<h4>Overview</h4>
+								<span class="edit-icon" title="Edit section" data-toggle="modal" data-target="#editOverview">
+									<i class="fa fa-pencil-square-o small-icon green-icon" aria-hidden="true"></i>
+								</span>
+							</div>
+							<div class="content">
+								No information available
+							</div>
+						</div>		
+					</div>
+					<div class="user-details-container">
+						<div class="profile-section">
+							<div class="title-border">
+								<h4>Portfolio</h4>
+								<span class="edit-icon" title="Edit section">
+									<i class="fa fa-pencil-square-o small-icon green-icon" aria-hidden="true"></i>
+								</span>
+							</div>
+							<div class="content">
+								No information available
+							</div>
+						</div>
+					</div>
+					<div class="user-details-container">
+						<div class="profile-section">
+							<div class="title-border">
+								<h4>Certifications</h4>
+								<span class="edit-icon" title="Edit section">
+									<i class="fa fa-pencil-square-o small-icon green-icon" aria-hidden="true"></i>
+								</span>
+							</div>
+							<div class="content">
+								No information available
+							</div>
+						</div>
+					</div>
+					<div class="user-details-container">
+						<div class="profile-section">
+							<div class="title-border">
+								<h4>Tests</h4>
+								<span class="edit-icon" title="Edit section">
+									<i class="fa fa-pencil-square-o small-icon green-icon" aria-hidden="true"></i>
+								</span>
+							</div>
+							<div class="content">
+								No information available
+							</div>
+						</div>
+					</div>
+					<div class="user-details-container">
+						<div class="profile-section">
+							<div class="title-border">
+								<h4>Employment History</h4>
+								<span class="edit-icon" title="Edit section">
+									<i class="fa fa-pencil-square-o small-icon green-icon" aria-hidden="true"></i>
+								</span>
+							</div>
+							<div class="content">
+								No information available
+							</div>
+						</div>						
+					</div>
+					<div class="user-details-container">
+						<div class="profile-section">
+							<div class="title-border">
+								<h4>Education</h4>
+								<span class="edit-icon" title="Edit section">
+									<i class="fa fa-pencil-square-o small-icon green-icon" aria-hidden="true"></i>
+								</span>
+							</div>
+							<div class="content">
+								No information available
+							</div>
+						</div>						
+					</div>
+					<div class="user-details-container">
+						<div class="profile-section">
+							<div class="title-border">
+								<h4>Other Experiences</h4>
+								<span class="edit-icon" title="Edit section">
+									<i class="fa fa-pencil-square-o small-icon green-icon" aria-hidden="true"></i>
+								</span>
+							</div>
+							<div class="content">
+								No information available
+							</div>
+						</div>						
+					</div>					
+				</div>
+				<div id="contacts" class="contacts">
+					<div id="contacts-header" class="contacts-header">
+						<span>List Contact</span>
+						<div id="contacts-settings" class="dropdown">
+						  <span data-toggle="dropdown">
+							<i class="fa fa-cog" aria-hidden="true"></i>
+						  </span>
+						  <ul class="dropdown-menu">
+							<li><a href="#">HTML</a></li>
+							<li><a href="#">CSS</a></li>
+							<li><a href="#">JavaScript</a></li>
+						  </ul>
+						</div>
+					</div>
+					<div class="contacts-content">
+						<div class="centered-container">
+							<div id="contact-search-loader" class="small-loader display-none"></div>
+						</div>
+						<div id="contacts-content-inner" class="contacts-content-inner">							
+							<div class="contacts-type">
+								<span>FRIENDS</span>
+							</div>
+							<ul class="contacts-list">
+								<li class="contacts-user">
+									<div class="contacts-user-profile">
+										<span class="contacts-user-image">
+											<img src="assets/img/members/1.jpg">
+										</span>
+										<span class="contacts-user-info">	
+											<span class="contacts-user-name">
+											Marius Oprea
+											</span>
+										</span>
+										<span class="contacts-user-status" title="Online">
+											<i class="fa fa-circle online-user" aria-hidden="true"></i>
+										</span>
+									</div>
+								</li>
+								<li class="contacts-user">
+									<div class="contacts-user-profile">
+										<span class="contacts-user-image">
+											<img src="assets/img/members/1.jpg">
+										</span>
+										<span class="contacts-user-info">	
+											<span class="contacts-user-name">
+											Marius Oprea
+											</span>
+										</span>
+										<span class="contacts-user-status" title="Offline">
+											<i class="fa fa-circle offline-user" aria-hidden="true"></i>
+										</span>
+									</div>
+								</li>								
+							</ul>
+							<div class="contacts-type">
+								<span>FRIENDS</span>
+							</div>
+							<ul class="contacts-list">
+								<li class="contacts-user">
+									<div class="contacts-user-profile">
+										<span class="contacts-user-image">
+											<img src="assets/img/members/1.jpg">
+										</span>
+										<span class="contacts-user-info">	
+											<span class="contacts-user-name">
+											Marius Oprea
+											</span>
+										</span>
+										<span class="contacts-user-status" title="Online">
+											<i class="fa fa-circle online-user" aria-hidden="true"></i>
+										</span>
+									</div>
+								</li>
+								<li class="contacts-user">
+									<div class="contacts-user-profile">
+										<span class="contacts-user-image">
+											<img src="assets/img/members/1.jpg">
+										</span>
+										<span class="contacts-user-info">	
+											<span class="contacts-user-name">
+											Marius Oprea
+											</span>
+										</span>
+										<span class="contacts-user-status" title="Offline">
+											<i class="fa fa-circle offline-user" aria-hidden="true"></i>
+										</span>
+									</div>
+								</li>								
+							</ul>
+						</div>
+					</div>
+					<div class="contacts-footer">
+						<div class="contacts-search">
+							<input id="contacts-search-input" type="text" placeholder="Name or email">
+							<span class="contacts-search-icon">
+								<i class="fa fa-search" aria-hidden="true"></i>
+							</span>
+						</div>						
+					</div>
+				</div>
+			</section>
+			<footer> 
+				<div class="container">
+					<div class="newsletter">
+						<div class="content">
+							<div class="col-md-4">
+								<div class="input">
+									<input type="text" name="name" placeholder="Full Name" required>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="input">
+									<input type="email" name="email" placeholder="Email Address" required>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="button-container">
+									<button type="button" class="btn btn-default light-green-btn">Subscribe</button>
+								</div>		
+							</div>			
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-3">
+						<div class="content">
+							<div class="col-title">
+								<h4>About</h4>
+							</div>
+							<ul class="list-group">
+								<li class="list-group-item">
+									<a href="#" title="Press News">Press News</a>
+								</li>
+								<li class="list-group-item">
+									<a href="#" title="Press News">Press News</a>
+								</li>
+								<li class="list-group-item">
+									<a href="#" title="Press News">Press News</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6  col-md-3">
+						<div class="content">
+							<div class="col-title">
+								<h4>About</h4>
+							</div>
+							<ul class="list-group">
+								<li class="list-group-item">
+									<a href="#" title="Press News">Press News</a>
+								</li>
+								<li class="list-group-item">
+									<a href="#" title="Press News">Press News</a>
+								</li>
+								<li class="list-group-item">
+									<a href="#" title="Press News">Press News</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-3">
+						<div class="content">
+							<div class="col-title">
+								<h4>About</h4>
+							</div>
+							<ul class="list-group">
+								<li class="list-group-item">
+									<a href="#" title="Press News">Press News</a>
+								</li>
+								<li class="list-group-item">
+									<a href="#" title="Press News">Press News</a>
+								</li>
+								<li class="list-group-item">
+									<a href="#" title="Press News">Press News</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-3">
+						<div class="content">
+							<div class="col-title">
+								<h4>About</h4>
+							</div>
+							<ul class="list-group">
+								<li class="list-group-item">
+									<a href="#" title="Press News">Press News</a>
+								</li>
+								<li class="list-group-item">
+									<a href="#" title="Press News">Press News</a>
+								</li>
+								<li class="list-group-item">
+									<a href="#" title="Press News">Press News</a>
+								</li>
+							</ul>
+						</div>
+					</div>				
+				</div>
+				<div class="copyright">
+					<div class="container">
+						<div class="col-sm-6">
+							&copy; Copyright 2016 <a href="#">Teamslancer</a>. All Rights Reserved.
+						</div>
+						<div class="col-sm-6">
+							<div class="social-media">
+								<ul>
+									<li>
+										<a href="#" target="_blank" title="Facebook">
+											<i class="fa fa-facebook" aria-hidden="true"></i>
+										</a>
+									</li>
+									<li>
+										<a href="#" target="_blank" title="Twitter">
+											<i class="fa fa-twitter" aria-hidden="true"></i>
+										</a>
+									</li>
+									<li>
+										<a href="#" target="_blank" title="Instagram">
+											<i class="fa fa-instagram" aria-hidden="true"></i>
+										</a>
+									</li>
+									<li>
+										<a href="#" target="_blank" title="LinkedIn">
+											<i class="fa fa-linkedin" aria-hidden="true"></i>
+										</a>
+									</li>
+									<li>
+										<a href="#" target="_blank" title="Google Plus">
+											<i class="fa fa-google-plus" aria-hidden="true"></i>
+										</a>
+									</li>
+									<li>
+										<a href="#" target="_blank" title="Youtube">
+											<i class="fa fa-youtube" aria-hidden="true"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<!-- Edit Profile Image Modal -->
+		<div class="modal fade" id="editProfileImage" tabindex="-1" role="dialog" aria-labelledby="editProfileImageLabel">
+		  <div class="modal-dialog" role="document">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="editProfileImageLabel">Edit Image</h4>
+			  </div>
+			  <div class="modal-body">
+				<form role="form">
+					<div class="form-group">
+						<div class="icon-addon addon-lg">
+							<input type="text" placeholder="Email Address" class="form-control" name="email">
+							<i class="fa fa-user" aria-hidden="true"></i>
+						</div>
+					</div>
+				</form>
+			  </div>
+			  <div class="modal-footer">			
+				<button type="button" class="btn btn-primary light-green-btn">Save</button>
+			  </div>
+			</div>
+		  </div>
+		</div>		
+		<!-- Edit Overview Modal -->
+		<div class="modal fade" id="editOverview" tabindex="-1" role="dialog" aria-labelledby="editOverviewLabel">
+		  <div class="modal-dialog" role="document">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="editOverviewLabel">Edit Overview</h4>
+			  </div>
+			  <div class="modal-body">
+				<form role="form">
+					<div class="form-group">
+						<div class="icon-addon addon-lg">
+							<input type="text" placeholder="Email Address" class="form-control" name="email">
+							<i class="fa fa-user" aria-hidden="true"></i>
+						</div>
+					</div>
+				</form>
+			  </div>
+			  <div class="modal-footer">			
+				<button type="button" class="btn btn-primary light-green-btn">Save</button>
+			  </div>
+			</div>
+		  </div>
+		</div>		
+		<a href="#0" class="cd-top">a</a>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="assets/js/jquery.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+		<script src="assets/js/script.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js">
     </body>
 </html>

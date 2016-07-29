@@ -11,13 +11,16 @@ body {
 Header
 ****************/
 header {
-	font-size: 20px;
+	font-size: 20px;	
+	position: relative;
+}
+
+header.first-page-header {
 	background: url('../img/header-background.jpg') top center #333;
     backface-visibility: visible;
     background-size: cover;
 	min-height: 450px;
     overflow: hidden;  
-	position: relative;
 }
 
 header .logo {
@@ -426,4 +429,163 @@ label {
 	text-shadow: 0px;
 	left: 3px;
 	font-size: 32px;
+}
+
+.label-notify {
+	font-size: 8px;
+	position: absolute;
+	top: 10px;
+	left: 25px;
+}
+
+/****************
+Navigation
+****************/
+
+.navbar {
+	font-size: 14px;
+}
+
+/****************
+Notifications
+****************/
+
+.notifications {
+	margin: 0;
+	padding: 0;
+}
+
+.notifications-footer {
+	text-align: center;
+	padding: 3px 5px;
+}
+
+.notification {	
+}
+
+.notification .notification-title {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.notification .notification-content {
+}
+
+.notification .notification-date {
+	font-size: 10px;
+}
+
+.notification-unread {
+	background-color: #AAA;
+	margin: 0;
+}
+
+/****************
+Teams
+****************/
+.teams {
+	border: solid 1px red;
+}	
+
+.team {
+	border: solid 1px blue;
+	display: inline-block;
+	width: 100%;
+}
+
+.team-details {
+	float: left;
+}
+
+.team .buttons-container {
+	text-align: center;
+	float: right;
+	border: solid 1px yellow;
+} 
+
+.team .buttons-container button {
+	display: block;
+} 
+
+.team .name a {
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #55c862;
+}
+
+.team .name a:hover {
+	text-decoration: underline;
+}
+
+.team .description {
+	font-size: 14px;
+}
+
+.team .members {
+	text-align: left;
+}
+
+.team .name,
+.team .description ,
+.team .members,
+.team .skills {
+	margin: 5px 0;
+}
+
+.skills .label {
+	font-size: 10px;
+	font-weight: normal;
+}
+
+/****************
+User profile
+****************/
+
+.user-details-container {
+	border: solid 1px #CCC;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.user-image-container {
+	text-align: center;
+	margin: 5px auto;
+	position: relative;
+}
+
+.user-image {
+	position: relative;
+	display: inline-block;
+}
+
+.user-details-container .user-image img {
+	border-radius: 3%;
+	width: 150px;
+	height: 150px;
+}
+
+.user-details-container .user-info {
+	margin: 10px auto;
+}
+
+.edit-image {
+	color: #FFF;
+	background-color: rgba(0, 0, 0, .50);
+	display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+	width: 150px;
+	height: 150px;;
+    z-index: 1010;
+	cursor: pointer;
+}
+
+.user-details-container .user-image:hover .edit-image  {
+	display: block;
+}
+
+.info-field {
+	margin: 5px 0;
 }

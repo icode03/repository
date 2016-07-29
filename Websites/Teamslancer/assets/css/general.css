@@ -9,6 +9,9 @@ section {
 	margin: 25px 0; 
 }
 
+.profile-section {
+}
+
 .align-right {
 	text-align: right;
 }
@@ -36,6 +39,18 @@ section {
 	margin-bottom: 40px;
 }
 
+.title-border {
+	border-bottom: solid 1px #CCC;
+	margin: 5px 0;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+.title-border h4 {
+	display: inline;
+	margin-right: 5px;
+}
+
 .separator {
 	border: solid 1px #FFF;
 	margin: 1px auto;
@@ -60,14 +75,22 @@ section {
 	transform: translate(-50%, -50%);
 }
 
-.loader {
-	border: 16px solid #F3F3F3;
+.loader,
+.small-loader  {
+	border: solid 16px #F3F3F3;
 	border-radius: 50%;
 	border-top: 16px solid #55c862;
 	width: 120px;
 	height: 120px;
 	-webkit-animation: spin 2s linear infinite;
 	animation: spin 2s linear infinite;
+}
+
+.small-loader {
+	border: solid 5px #F3F3F3;
+	border-top: 5px solid #55c862;
+	width: 40px;
+	height: 40px;
 }
 
 @-webkit-keyframes spin {
@@ -215,4 +238,239 @@ Icons
 
 .big-icon {
 	font-size: 40px;
+}
+
+.medium-icon {
+	font-size: 28px;
+}
+
+.small-icon {
+	font-size: 16px;
+}
+
+.green-icon {
+	color: #55c862;
+}
+
+.fa-star,
+.fa-star-half-o {
+	font-size: 14px;
+	color: #FFC90E;
+}
+
+.online-user {
+	font-size: 8px;
+	color: #55c862;
+}
+
+.offline-user {
+	font-size: 8px;
+	color: #CCC;
+}
+
+.edit-icon i {
+	cursor: pointer;
+}
+
+/****************
+Tooltip
+****************/
+.info-field .top {
+	display: inline-block;
+	margin-right: 5px;	
+}
+
+/****************
+Contacts
+****************/
+
+.contacts {
+	height: 350px;
+    -webkit-transition: ease-out height .2s;
+    transition: ease-out height .2s;
+    padding-bottom: 30px;
+    border-left: 1px solid #BEC0C2;
+    border-right: 1px solid #BEC0C2;
+	position: fixed;
+    bottom: 0;
+    right: 5px;
+	z-index: 1021;
+    width: 260px;
+    padding: 0 0 32px;
+    background-color: #F7F7F7;
+	display: none;
+}
+
+.minimised {
+	height: 36px;
+    padding: 0;
+}
+
+.minimised .contacts-header:hover{
+	-webkit-animation: hoverbounce .5s;
+    animation: hoverbounce .5s;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+}
+
+.minimised .contacts-footer {
+	display: none;
+}
+
+.contacts-header {
+	position: relative;
+    z-index: 2;
+    left: -1px;
+    width: 260px;
+    height: 36px;
+    padding: 8px 2px;
+    background-color: #1f2836;
+	cursor: pointer;
+}
+
+.contacts-header span {
+	display: inline-block;
+    margin: 0 7px;
+    font-size: 14px;
+    font-size: 14px;
+    line-height: 1.43;
+    color: #F7F7F7;
+	float: left;
+}
+
+.contacts-header .dropdown-menu {
+	right: 0;
+	left: auto;
+}
+
+.contacts-header .dropdown {
+	position: absolute;
+	right: 0;
+}
+
+.contacts-content {
+	height: 283px;
+}	
+
+.contacts-content-inner {
+    height: 100%;
+    min-height: 200px;
+    position: relative;
+	overflow-x: auto;
+}
+
+.contacts-type {
+	position: relative;
+}
+
+.contacts-type span {
+	padding: 6px 7px;
+    margin: 0;
+    background-color: #F7F7F7;
+    color: #767676;
+    font-size: 12px;
+    line-height: 1.33;
+    text-transform: uppercase;
+}
+
+.contacts-list {
+	padding: 6px 0 0;
+    margin: -2px 0 8px;
+    list-style: none;
+}	
+
+.contacts-user {
+	position: relative;
+    display: inline-block;
+    width: 100%;
+    padding: 2px 6px;
+    margin-top: -2px;
+    margin-bottom: 0;
+}
+
+.contacts-user:hover {
+	background-color: #EEE;
+}
+
+.contacts-user-profile {
+	position: relative;
+    display: table;
+    width: 100%;
+    cursor: pointer;
+    color: #1f2836;
+}
+
+.contacts-user-image  {
+    display: table-cell;
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+.contacts-user-image img {
+	width: 32px;
+    height: 32px;
+    vertical-align: middle;
+}
+
+.contacts-user-info {
+	display: table-cell;
+	width: 100%;
+    padding: 0 7px;
+    overflow: hidden;
+    vertical-align: middle;
+    line-height: 12px;
+}
+.contacts-user-name { 
+    display: block;
+    font-size: 12px;
+    line-height: 1.33;
+    font-weight: 500;
+    line-height: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 150px;
+}
+.contacts-user-status {
+	display: table-cell;
+    vertical-align: middle;
+}
+
+.contacts-footer {
+	position: absolute;
+    z-index: 2;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    color: #75787d;
+    background-color: #F7F7F7;
+    border-top: 1px solid #BEC0C2;
+}
+
+.contacts-footer .contacts-search {
+	position: relative;
+    display: inline-block;
+	width: 100%;
+}
+
+.contacts-footer .contacts-search input {
+    width: 100%;
+    height: 31px;
+    padding: 8px 17px 8px 24px;
+    font-size: 12px;
+    line-height: 1.33;
+    line-height: 15px;
+    border: none;
+    border-right: 1px solid #BEC0C2;
+    background-color: #F7F7F7;
+    color: #1f2836;
+}
+
+.contacts-footer .contacts-search-icon {
+	position: absolute;
+	top: 9px;
+    left: 7px;
+    font-size: 12px;
+    line-height: 1.33;
 }
